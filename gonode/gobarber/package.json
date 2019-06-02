@@ -1,0 +1,31 @@
+{
+    "name": "gobarber",
+    "version": "0.0.1",
+    "description": "Developed project over GoNode of Rocketseat's GoStack 4",
+    "main": "src/index.js",
+    "author": "@andredezzy",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "start": "nodemon src/index.js -e js"
+    },
+    "devDependencies": {
+        "eslint": "^5.16.0",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.17.3",
+        "nodemon": "^1.19.1",
+        "sequelize-cli": "^5.4.0"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "connect-flash": "^0.1.1",
+        "express": "^4.17.1",
+        "express-session": "^1.16.1",
+        "moment": "^2.24.0",
+        "multer": "^1.4.1",
+        "nunjucks": "^3.2.0",
+        "pg": "^7.11.0",
+        "sequelize": "^5.8.6",
+        "session-file-store": "^1.2.0"
+    }
+}
